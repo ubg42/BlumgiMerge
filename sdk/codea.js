@@ -9,7 +9,7 @@ for (var i = 0; i < methods.length; i++) {
     console[methods[i]] = function () { };
 }
 //dumv
-var libUrl = '/js-html5/8/1755?version=2';
+var libUrl = './js-html5/8/1755?version=2';
 if (libUrl.length > 5) {
     var adsdumv = document.createElement("script");
     adsdumv.setAttribute("src", libUrl),
