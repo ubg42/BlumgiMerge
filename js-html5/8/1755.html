@@ -1,0 +1,35 @@
+var _antgamesSDK = _antgamesSDK || {};
+    _antgamesSDK.sid = "4e682dcd-1229-4d78-a058-8bc447e33de6";
+
+    _antgamesSDK.bannerConfig = _antgamesSDK.bannerConfig || {};
+    _antgamesSDK.rewardedConfig = _antgamesSDK.rewardedConfig || {};
+    _antgamesSDK.ingameConfig = _antgamesSDK.ingameConfig || {};
+
+    ShowUnityLog = (e)=>{
+        console.log(e);
+    }
+
+_antgamesSDK.tagAutoReward = "";
+
+
+_antgamesSDK.ingameConfig["04DA-18B2-1ED6-20E8"] = {
+    tagId: "pw_20583",
+    customKey: ""
+  };
+
+
+_antgamesSDK.rewardedConfig["04DA-18B2-1ED5-20E9"] = {
+   tagId: "pw_20583",
+   customKey: "2047_04DA-18B2-1ED5-20E9"
+};
+ 
+_antgamesSDK.tagAutoReward = "04DA-18B2-1ED5-20E9";
+
+
+
+
+const scAntsdk = document.createElement('script');
+scAntsdk.src = '/js/pubpower';
+document.head.appendChild(scAntsdk);
+
+var _antgamesSDK = _antgamesSDK || {};
